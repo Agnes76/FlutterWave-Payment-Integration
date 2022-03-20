@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlutterIntegration", "FlutterIntegration\FlutterIntegration.csproj", "{49CCC3B3-9BA8-4D56-9B8D-2A135C667FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlutterIntegration.Models", "FlutterIntegration.Models\FlutterIntegration.Models.csproj", "{EFABA31B-D512-4DCA-9D70-8C8D27A5E36B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlutterIntegration.Logic", "FlutterIntegration.Logic\FlutterIntegration.Logic.csproj", "{DE1AAEB3-72C1-4CD0-9945-ECBAFCA7F3AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlutterIntegration.Data", "FlutterIntegration.Data\FlutterIntegration.Data.csproj", "{056164F5-6059-4C5D-9AB0-0B25B9282255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlutterIntegration.Core", "FlutterIntegration.Core\FlutterIntegration.Core.csproj", "{7881397F-554D-4503-8A2A-E3618908A340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49CCC3B3-9BA8-4D56-9B8D-2A135C667FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CCC3B3-9BA8-4D56-9B8D-2A135C667FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CCC3B3-9BA8-4D56-9B8D-2A135C667FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CCC3B3-9BA8-4D56-9B8D-2A135C667FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFABA31B-D512-4DCA-9D70-8C8D27A5E36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFABA31B-D512-4DCA-9D70-8C8D27A5E36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFABA31B-D512-4DCA-9D70-8C8D27A5E36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFABA31B-D512-4DCA-9D70-8C8D27A5E36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1AAEB3-72C1-4CD0-9945-ECBAFCA7F3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1AAEB3-72C1-4CD0-9945-ECBAFCA7F3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1AAEB3-72C1-4CD0-9945-ECBAFCA7F3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1AAEB3-72C1-4CD0-9945-ECBAFCA7F3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056164F5-6059-4C5D-9AB0-0B25B9282255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056164F5-6059-4C5D-9AB0-0B25B9282255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056164F5-6059-4C5D-9AB0-0B25B9282255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056164F5-6059-4C5D-9AB0-0B25B9282255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7881397F-554D-4503-8A2A-E3618908A340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7881397F-554D-4503-8A2A-E3618908A340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7881397F-554D-4503-8A2A-E3618908A340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7881397F-554D-4503-8A2A-E3618908A340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5649F2-E2F0-4CE0-9359-513760ED584F}
+	EndGlobalSection
+EndGlobal

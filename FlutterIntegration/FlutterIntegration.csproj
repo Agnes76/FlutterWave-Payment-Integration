@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlutterIntegration.Core\FlutterIntegration.Core.csproj" />
+    <ProjectReference Include="..\FlutterIntegration.Data\FlutterIntegration.Data.csproj" />
+    <ProjectReference Include="..\FlutterIntegration.Logic\FlutterIntegration.Logic.csproj" />
+    <ProjectReference Include="..\FlutterIntegration.Models\FlutterIntegration.Models.csproj" />
+  </ItemGroup>
+
+</Project>
